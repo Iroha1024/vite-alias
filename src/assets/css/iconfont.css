@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.ttf?t=1609657836678') format('truetype');
+}
+
+.iconfont {
+    font-family: 'iconfont' !important;
+    font-size: 24px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.folder-open:before {
+    content: '\e617';
+}
+
+.folder:before {
+    content: '\e622';
+}
+
+.close:before {
+    content: '\e62a';
+}
+
+.file:before {
+    content: '\e79a';
+}
